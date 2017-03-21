@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("fontface/estilo.css");
+
+* {border:0;}
+
+body {}
+
+input:focus {outline: none}
+
+.clear {clear: both;}
+
+.teclado {width: 90%; max-width: 300px; margin: 0 auto; padding: 10px; border-radius: 5px; border: 1px solid #444}
+	.teclado .numero {width: 96%; border: 0.5px solid #CCC; margin-bottom: 10px; padding: 2%; font-size: 30px}
+	.teclado .n {width: 32%; float: left; font-size: 35px; padding: 5%; margin: 0.5%; cursor: pointer; background: #E8E8E8}
+	.teclado .n:hover {background: #9C9C9C}
+	.teclado .n:active {background: #000; color: #FFF}
